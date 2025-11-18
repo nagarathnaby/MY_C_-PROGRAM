@@ -1,4 +1,4 @@
-//if statment
+//if statement
 
 #include <stdio.h>
 
