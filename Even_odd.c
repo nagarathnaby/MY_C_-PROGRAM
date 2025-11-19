@@ -6,7 +6,7 @@ int main() {
     int a;
     printf("Enter the value of a\n");
     scanf("%d",&a);
-     if(a>0){
+     if( a % 2 == 0){
          printf("a is an even number");
      }
          else{
