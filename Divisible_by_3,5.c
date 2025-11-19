@@ -12,6 +12,7 @@ int main() {
     if(a%5==0){
         printf("a is divisible by 5\n");
     }
+    printf("Not divisible by 3 and 5\n");
     
     return(0);
 }
