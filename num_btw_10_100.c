@@ -1,16 +1,18 @@
 // Given number is in the range of 10 to 100
+
 #include <stdio.h>
 
 int main() {
     int num;
-    printf("enter a number");
-    scanf("%d",&num);
-    
-    if(num <= 10){
-    if(num >= 100)
-    printf("the number is in the range of 10 to 100 ");
-    else
-    printf("number is not in the given range");
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num >= 10 && num <= 100) {
+        printf("%d is between 10 and 100.\n", num);
+    } else {
+        printf("%d is NOT between 10 and 100.\n", num);
     }
+
     return 0;
 }
+
