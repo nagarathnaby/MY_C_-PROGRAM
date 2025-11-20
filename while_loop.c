@@ -7,10 +7,10 @@ int main() {
     
     while(a<5)
     {
-        printf("a is even");
+        printf("a is least");
         a++;
     }
-    printf("a is odd");
+    printf("a is greater");
     
     return 0;
 }
